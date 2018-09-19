@@ -57,6 +57,10 @@ h1 {
   color: white;
 }
 
+.header-left {
+
+}
+
 .header-right {
   float: right;
 }
@@ -79,7 +83,7 @@ h1 {
   padding: 25px 50px 75px 100px;
 
 
-#bioimage{
+#bioimage {
 float: left;
 }
 
