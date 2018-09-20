@@ -9,18 +9,34 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: grey;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-image: url("assets/images/full-bloom.png");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   color: #4aaaa5;
 }
 .container {
-  background-color: grey;
+  /* background-color: grey; */
   width: 1024 px;
   margin: 0 auto;
   border-radius: 5px;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   padding: 20px;
+  background-image: url("../assets/images/full-bloom.png");
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
@@ -32,19 +48,19 @@ h1 {
   color: #ffffff;
   text-align: center;
   font-size: small;
+  border-top: 3 px #4aaaa5;
 }
 
 .header {
   overflow: hidden;
-  background-color: #ffffff;
-  padding: 20px 10px;
+  border-bottom: 1px solid grey;
 }
 
 .header a {
   float: left;
   color: #777777;
   text-align: center;
-  padding: 8px;
+  padding: 20px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
