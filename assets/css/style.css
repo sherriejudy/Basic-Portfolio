@@ -10,7 +10,6 @@ body {
   line-height: 150%;
   color: grey;
   /* background-color: #ffffff; */
-  background-image: url("assets/images/full-bloom.png");
   /* Full height */
   height: 100%;
 
@@ -29,7 +28,7 @@ h1 {
   border-radius: 5px;
   /* background-color: lightgrey; */
   padding: 20px;
-  background-image: url("../assets/images/full-bloom.png");
+  background-image: url("../images/full-bloom.png");
   /* Full height */
   /* height: 100%; */
 
@@ -80,9 +79,6 @@ h1 {
   color: #ffffff;
 }
 
-.header-left {
-}
-
 .header-right {
   float: right;
 }
@@ -111,6 +107,7 @@ h1 {
   margin-right: 2%;
 }
 /* css positioning semantic html contact page */
+/* the contact me page*/
 input[type="text"],
 select,
 textarea {
@@ -125,7 +122,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
+  background-color: #4aaaa5;
   color: #ffffff;
   padding: 12px 20px;
   border: none;
@@ -134,5 +131,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: white;
+  color: #4aaaa5;
 }
