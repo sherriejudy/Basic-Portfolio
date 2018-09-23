@@ -53,11 +53,11 @@ h1 {
 
 .header {
   overflow: hidden;
-  border-bottom: 3px solid lightgray;
+  border-bottom: 2px solid lightgray;
   background-color: white;
 }
 .heading {
-  border-bottom: 3px solid lightgray;
+  border-bottom: 2.5px solid lightgray;
   padding: 0px 0px 20px 0px;
 }
 
@@ -154,7 +154,7 @@ input[type="submit"]:hover {
   background: lightgrey;
   position: relative;
   display: inline-block;
-  margin: 15px 15px 15px 15px;
+  margin: 15px 30px 15px 0px;
 }
 
 .label {
