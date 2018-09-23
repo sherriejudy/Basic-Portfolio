@@ -18,8 +18,8 @@ body {
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-image: url("../images/full-bloom.png");
 }
 h1 {
   color: #4aaaa5;
@@ -28,7 +28,6 @@ h1 {
   /* background-color: grey; */
   width: 1024 px;
   margin: 0 auto;
-  border-radius: 5px;
   /* background-color: lightgrey; */
   padding: 20px;
   background-image: url("../images/full-bloom.png");
@@ -49,13 +48,17 @@ h1 {
   color: #ffffff;
   text-align: center;
   font-size: small;
-  border-top: 3 px #4aaaa5;
+  border-top: 6px solid #4aaaa5;
 }
 
 .header {
   overflow: hidden;
-  border-bottom: 1px solid grey;
+  border-bottom: 3px solid lightgray;
   background-color: white;
+}
+.heading {
+  border-bottom: 3px solid lightgray;
+  padding: 0px 0px 20px 0px;
 }
 
 .header a {
@@ -66,7 +69,6 @@ h1 {
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 4px;
 }
 
 .header a.logo {
@@ -84,6 +86,16 @@ h1 {
 
 .header-right {
   float: right;
+}
+
+.header-right a {
+  border-right: 1px solid lightgray;
+  padding: 0px 20px 0px 20px;
+  margin: 20px 0px 20px 0px;
+}
+
+.header-right a:last-child {
+  border-style: none;
 }
 
 @media screen and (max-width: 500px) {
@@ -110,6 +122,7 @@ h1 {
   margin-right: 2%;
 }
 /* css positioning semantic html contact page */
+
 /* the contact me page*/
 input[type="text"],
 select,
@@ -129,11 +142,28 @@ input[type="submit"] {
   color: #ffffff;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
   background-color: white;
   color: #4aaaa5;
+}
+
+.picture {
+  background: lightgrey;
+  position: relative;
+  display: inline-block;
+  margin: 15px 15px 15px 15px;
+}
+
+.label {
+  position: absolute;
+  bottom: 5px;
+  background: #4aaaa5;
+  color: white;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
 }
