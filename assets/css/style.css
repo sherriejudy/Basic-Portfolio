@@ -77,7 +77,7 @@ h1 {
   font-weight: bold;
   background-color: #4aaaa5;
   color: #ffffff;
-  margin-left: 13%;
+  margin-left: 12.5%;
 }
 
 .header a:hover {
@@ -87,6 +87,7 @@ h1 {
 
 .header-right {
   float: right;
+  padding: 0 140px 0 0;
 }
 
 .header-right a {
