@@ -24,6 +24,7 @@ body {
 h1 {
   color: #4aaaa5;
   font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: x-large;
 }
 .container {
   width: 1024 px;
@@ -118,6 +119,7 @@ h1 {
   padding: 15px 30px 15px 30px;
   margin-left: 12.5%;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  page-break-after: always;
 }
 
 #bioimage {
